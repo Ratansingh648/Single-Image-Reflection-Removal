@@ -3,7 +3,7 @@ This Repository contains the codes for Image Reflection Removal Techniques
 
 <hr/>
 
-###  Seeing Deeply and Bidirectionally: A deep learning approach for Single Image Reflection Removal
+###  Akhil - Seeing Deeply and Bidirectionally: A deep learning approach for Single Image Reflection Removal
 
 #### Main Idea - 
 
