@@ -7,7 +7,7 @@ This Repository contains the codes for Image Reflection Removal Techniques
 
 LINK - https://paperswithcode.com/paper/seeing-deeply-and-bidirectionally-a-deep
 
-PAPERS - https://openaccess.thecvf.com/content_ECCV_2018/papers/Jie_Yang_Seeing_Deeply_and_ECCV_2018_paper.pdf
+PAPER - https://openaccess.thecvf.com/content_ECCV_2018/papers/Jie_Yang_Seeing_Deeply_and_ECCV_2018_paper.pdf
 
 #### LONG story SHORT:
 
