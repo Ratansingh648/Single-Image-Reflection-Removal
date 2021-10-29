@@ -87,6 +87,7 @@ L<sub>2</sub> : Image with short tail distribution of gradients (Reflection)
 <hr/>
 
 ### Rishabh's paper ideas and implementation details
+Fast Deep Embedded Single Image Reflection Removal
 
 <hr/>
 
