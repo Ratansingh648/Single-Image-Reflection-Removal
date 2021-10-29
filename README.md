@@ -70,6 +70,8 @@ an adversarial loss that encodes characteristics of images in the transmission l
 
 We validate our method through comprehensive quantitative experiments and show that our approach outperforms state-of-the-art reflection removal methods in PSNR, SSIM, and perceptual user study. 
 
+<hr/>
+
 ### Ratan - Single Image Layer Separation using Relative Smoothness
 
 This paper is based on idea that an input image can be written as
