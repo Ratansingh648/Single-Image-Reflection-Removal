@@ -63,7 +63,7 @@ an adversarial loss that encodes characteristics of images in the transmission l
  What makes this paper innovative is adding a new type of losss which is an exclusion loss that enforces pixel-level layer separation 
 
 #### Implementation: 
-![alt text](https://github.com/Ratansingh648/Image-Reflection-Removal/Lossimplementation.PNG?raw=true)
+![alt text](https://github.com/[Ratansingh648]/[Image-Reflection-Removal]/blob/[main]/Lossimplementation.PNG?raw=true)
  
 
 #### Results: 
