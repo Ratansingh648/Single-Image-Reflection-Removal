@@ -42,7 +42,33 @@ Final goal is to learn a mapping function F(·) to predict the background image 
 
 ### Osama's Paper idea and implementation details
 
-<hr/>
+***Single Image Reflection Separation with Perceptual Losses: 
+
+#### Summary: 
+
+We can separate reflection from a single image using a deep neural network with perceptual losses that exploit the low-level and high-level information of an image.  
+
+Key points of the process:  
+
+We need to train a network with low-level and high-level image features. 
+
+To do this We create a dataset of real-world images with reflection and corresponding ground-truth transmission layers for quantitative evaluation and model training. 
+
+The loss function includes two perceptual losses: 
+
+a feature loss from a visual perception network 
+
+an adversarial loss that encodes characteristics of images in the transmission layers 
+
+ What makes this paper innovative is adding a new type of losss which is an exclusion loss that enforces pixel-level layer separation 
+
+#### Implementation: 
+
+ 
+
+#### Results: 
+
+We validate our method through comprehensive quantitative experiments and show that our approach outperforms state-of-the-art reflection removal methods in PSNR, SSIM, and perceptual user study. 
 
 ### Ratan - Single Image Layer Separation using Relative Smoothness
 
