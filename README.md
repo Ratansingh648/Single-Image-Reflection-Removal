@@ -42,7 +42,7 @@ Final goal is to learn a mapping function F(·) to predict the background image 
 
 ### Osama's Paper idea and implementation details
 
-***Single Image Reflection Separation with Perceptual Losses: 
+***Single Image Reflection Separation with Perceptual Losses:*** 
 
 #### Summary: 
 
