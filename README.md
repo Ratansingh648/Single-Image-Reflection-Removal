@@ -5,6 +5,21 @@ This Repository contains the codes for Image Reflection Removal Techniques
 
 ###  Akhil - Seeing Deeply and Bidirectionally: A deep learning approach for Single Image Reflection Removal
 
+#### LONG story SHORT:
+
+I = B +  R
+
+Training dataset has I as input and B and R as ground truths available.
+
+Testing dataset has I as input and only B as groundtruth (no R available)
+
+1) I -> B     (learn a mapping function to estimate B)
+2) B -> R    (use the learnt mapping function to estimate R)
+3) R -> B    (use the learnt mapping function to estimate B again - thereby making B prediction more accurate)
+
+Evaluation is done in SSIM and PSNR
+
+
 #### Main Idea - 
 
 ***Estimate Reflection (R) image and utilize it to estimate Background (B) image using a cascaded Deep Neural Network.***
