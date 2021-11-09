@@ -95,6 +95,14 @@ L<sub>2</sub> : Image with short tail distribution of gradients (Reflection)
 ### Rishabh's paper ideas and implementation details
 Fast Deep Embedded Single Image Reflection Removal
 
+Most relfection removal approaches focus on reflection removal in low resolution images. The method proposed in this paper includes a deep learning model for reflection removal divided into 2 stages:
+   1. Low Scale Sub-network (LSSNet) to process the lowest scale
+   2. Progressive Inference (PI) stage to process all the higher scales
+
+This method is  20× faster with 50× less number of parameters compared to the most recent stateof-the-art algorithm RAGNet.
+
+
+
 <hr/>
 
 Contributors: Akhil Shukla, Osama Trabelsi, Ratan Singh, Rishabh Patel
