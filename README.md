@@ -5,6 +5,10 @@ This Repository contains the codes for Image Reflection Removal Techniques
 
 ###  Akhil - Seeing Deeply and Bidirectionally: A deep learning approach for Single Image Reflection Removal
 
+LINK - https://paperswithcode.com/paper/seeing-deeply-and-bidirectionally-a-deep
+
+PAPER - https://openaccess.thecvf.com/content_ECCV_2018/papers/Jie_Yang_Seeing_Deeply_and_ECCV_2018_paper.pdf
+
 #### LONG story SHORT:
 
 I = B +  R
@@ -63,12 +67,14 @@ an adversarial loss that encodes characteristics of images in the transmission l
  What makes this paper innovative is adding a new type of losss which is an exclusion loss that enforces pixel-level layer separation 
 
 #### Implementation: 
-
+![Lossimplementation](https://user-images.githubusercontent.com/64674291/139358248-dd54581d-b69c-455b-b458-24eda3920be4.PNG)
  
 
 #### Results: 
 
 We validate our method through comprehensive quantitative experiments and show that our approach outperforms state-of-the-art reflection removal methods in PSNR, SSIM, and perceptual user study. 
+
+<hr/>
 
 ### Ratan - Single Image Layer Separation using Relative Smoothness
 
@@ -87,6 +93,15 @@ L<sub>2</sub> : Image with short tail distribution of gradients (Reflection)
 <hr/>
 
 ### Rishabh's paper ideas and implementation details
+Fast Deep Embedded Single Image Reflection Removal
+
+Most relfection removal approaches focus on reflection removal in low resolution images. The method proposed in this paper includes a deep learning model for reflection removal divided into 2 stages:
+   1. Low Scale Sub-network (LSSNet) to process the lowest scale
+   2. Progressive Inference (PI) stage to process all the higher scales
+
+This method is  20× faster with 50× less number of parameters compared to the most recent stateof-the-art algorithm RAGNet.
+
+
 
 <hr/>
 
