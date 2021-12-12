@@ -200,10 +200,10 @@ def reflection_removal(I, lamda, lb, hb, L1_0 = None):
 
 
 if __name__ == "__main__":
-    file_path = "<path to file>"
+    file_path = "C:\\Users\\ratan\\Downloads\\li_cvpr14_layer\\suitcase.png"
     img = cv2.imread(file_path) # Read image here
     out =im2double(img.astype('float')) # Convert to normalized floating poin
     L1, L2 = reflection_removal(out, 10, np.zeros(out.shape), out, out)   
     cv2.imshow("Original Image", img)
-    cv2.imshow("Image without Reflection", L1)
+    cv2.imshow("Image without Reflection", L1*1.7)
     cv2.imshow("Reflection of Image", L2)
