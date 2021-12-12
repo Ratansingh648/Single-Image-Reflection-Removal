@@ -1,4 +1,3 @@
-
 import numpy as np
 import cv2
 from scipy.signal import convolve2d
