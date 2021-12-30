@@ -14,10 +14,8 @@ def im2double(im):
     except:
         N, M = im.shape
         D = 1
-    print(N, M, D)
     y = np.zeros(im.shape, dtype=float)
     for i in range(D):
-        print(i)
         min_pixel = np.min(im[:, :, i])
         max_pixel = np.max(im[:, :, i])
         y[:, :, i] = (im[:, :, i] - min_pixel)*1.0/(max_pixel - min_pixel)
